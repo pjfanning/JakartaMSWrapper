@@ -16,7 +16,7 @@ repositories {
 
 dependencies {
     implementation 'jakarta.jms:jakarta.jms-api:3.0.0'
-    testImplementation platform('org.junit:junit-bom:5.9.2')
+    testImplementation platform('org.junit:junit-bom:5.10.2')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
 
@@ -51,8 +51,8 @@ publishing {
             from(components.java)
             pom {
                 name = 'jakartamswrapper'
-                description = 'Wrapper around JMS API to allow testing of close and other calls'
-                url = 'https://github.com/pjfanning/JmsWrapper'
+                description = 'Wrapper around Jakarta MS API to allow testing of close and other calls'
+                url = 'https://github.com/pjfanning/JakartaMSWrapper'
                 licenses {
                     license {
                         name = 'The Apache License, Version 2.0'
@@ -67,9 +67,9 @@ publishing {
                     }
                 }
                 scm {
-                    url = 'https://github.com/pjfanning/JmsWrapper'
-                    connection = 'scm:git://github.com/pjfanning/JmsWrapper.git'
-                    developerConnection = 'scm:git://github.com/pjfanning/JmsWrapper.git'
+                    url = 'https://github.com/pjfanning/JakartaMSWrapper'
+                    connection = 'scm:git://github.com/pjfanning/JakartaMSWrapper.git'
+                    developerConnection = 'scm:git://github.com/pjfanning/JakartaMSWrapper.git'
                 }
             }
         }
