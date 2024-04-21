@@ -1,3 +1,3 @@
-# JmsWrapper
+# JakataMSWrapper
 
-Wrapper around JMS API to allow testing of close and other calls.
+Wrapper around JakartaMS API to allow testing of close and other calls. This is a fork of https://github.com/pjfanning/JMSWrapper.
